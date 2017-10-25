@@ -43,3 +43,6 @@ nbdist/
 .nb-gradle/
 
 # End of https://www.gitignore.io/api/c++,netbeans
+
+### Output ###
+output

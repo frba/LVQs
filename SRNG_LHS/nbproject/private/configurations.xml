@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../Data/Velez/20SNPs/800/00/00.800.0.txt   bla</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../Data/Moore/threeway/20SNPs/800/best1.txt output/Moore/20SNPs/relevances-20-threeway-best1-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../Data/Moore/threeway/1000SNPs/800/best33.txt output/Moore/1000SNPs/relevances-1000-threeway-best33-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../Data/Moore/threeway/1000SNPs/800/best3.txt output/Moore/1000SNPs/relevances-1000-threeway-best1-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../Data/Moore/threeway/20SNPs/800/best1.txt output/Moore/1000SNPs/relevances-1000-threeway-best1-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/threeway/20SNPs/800/best1.txt output/Moore/1000SNPs/relevances-1000-threeway-best1-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/threeway/20SNPs/800/best1.txt output/Moore/20SNPs/relevances-20-threeway-best1-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/fourway/20SNPs/800/best1.txt output/Moore/20SNPs/relevances-20-fourway-best1-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/fourway/20SNPs/800/best101.txt output/Moore/20SNPs/relevances-20-fourway-best101-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/threeway/20SNPs/800/best1.txt output/Moore/20SNPs/relevances-20-fourway-best101-</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"  ../../Data/Moore/threeway/20SNPs/800/best1.txt output/Moore/20SNPs/relevances-20-fourway-best101-</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <console-type>2</console-type>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/fiveway/1000SNPs/800/best201.txt output/Moore/1000SNPs/best1/relevances-1000-fiveway-best201-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/fourway/1000SNPs/800/best101.txt output/Moore/1000SNPs/best1/relevances-1000-fiveway-best201-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/fourway/20SNPs/800/best1.txt output/Moore/20SNPs/relevances-20-fourway-best101-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/threeway/20SNPs/800/best201.txt output/Moore/20SNPs/relevances-20-fourway-best101-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/threeway/20SNPs/800/best1.txt output/Moore/20SNPs/relevances-20-fourway-best101-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/fiveway/20SNPs/800/best201.txt output/Moore/20SNPs/relevances-20-fourway-best101-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/fourway/20SNPs/800/best101.txt output/Moore/20SNPs/relevances-20-fourway-best101-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../Data/Moore/fourway/20SNPs/800/best102.txt output/Moore/20SNPs/relevances-20-fourway-best101-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../../Data/Moore/threeway/20SNPs/800/best1.txt output/Moore/20SNPs/relevances-20-threeway-best1-</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  ../../../Data/Moore/threeway/100SNPs/800/best1.txt output/Moore/20SNPs/relevances-20-threeway-best1-</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"  ../../../Data/Moore/threeway/100SNPs/800/best1.txt output/Moore/20SNPs/relevances-20-threeway-best1-</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <console-type>2</console-type>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
